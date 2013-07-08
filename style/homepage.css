@@ -47,7 +47,7 @@
 }
 
 .slideshow nav{
-	background: url('images/general/bg-slider-nav.png') repeat-x left center transparent;
+	background: url('../img/general/bg-slider-nav.png') repeat-x left center transparent;
 	width: 850px;
 	height: 48px;
 	position: relative;
@@ -83,7 +83,7 @@
 }
 
 .slideshow nav li a{
-	background: url('images/general/bg-circle.png') no-repeat left top transparent;
+	background: url('../img/general/bg-circle.png') no-repeat left top transparent;
 	width: 47px;
 	height: 48px;
 	display: inline-block;
@@ -123,45 +123,21 @@
 }
 
 .slideshow nav .loadbar{
-	background: url('images/general/bg-slider-loadbar.png') repeat-x left center transparent;
+	background: url('../img/general/bg-slider-loadbar.png') repeat-x left center transparent;
 	height: 48px;
 	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: 1;
-}   
-   
-   
-   
-.main-container div.separator-section{
-	margin: 20px 0;
 }
-
-.separator-section section{
-	float: left;
-	color: #fff;
-	width: 100%;
-}
-
-.separator-section section.half-width{
-	width: 50%;
-}
-
-.separator-section section.third-width{
-	width: 33.33%;
-}
-
-.separator-section section.half-width > *,
-.separator-section section.third-width > *{
-	margin-right: 15px;
-	margin-left: 15px;
-}
-
 
 .home-page .main-title{
 	margin-bottom: 25px;
 }
 
+.main-container div.separator-section{
+	margin: 20px 0;
+}
 
 .home-features{
 	text-align: center;
@@ -196,32 +172,6 @@
 	line-height: 20px;
 }
 
-
-.ordernow-container{
-	background: url('images/general/bg-shine-orderbutton.png') no-repeat center center transparent;
-	width: 695px;
-	height: 307px;
-	margin: 0 auto -150px;
-	position: relative;
-	top: -140px;
-	clear: both;
-	text-align: center;
-}
-
-.ordernow-container .btn{
-	float: none;
-	margin: 160px auto;
-}
-
-.ordernow-container p{
-	position: absolute;
-	top: 100px;
-	text-align: center;
-	width: 100%;
-	font-size: 20px;
-	font-family: 'HelveticaNeueBold';
-}
-
 .home-testimonials li{
 	float: left;
 	width: 475px;
@@ -236,7 +186,7 @@
 	display: block;
 	width: 44px;
 	height: 41px;
-	background: url('images/general/arrow-testimonial.png') no-repeat transparent;
+	background: url('../img/general/arrow-testimonial.png') no-repeat transparent;
 	z-index: 2;
 }
 
@@ -246,7 +196,7 @@
 
 .home-testimonials li > div > section > span{
 	position: absolute;
-	background: url('images/general/icon-quote.png') no-repeat transparent;
+	background: url('../img/general/icon-quote.png') no-repeat transparent;
 	width: 26px;
 	height: 25px;
 }
