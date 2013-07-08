@@ -1,0 +1,154 @@
+/* ==============
+    Services Elements
+   ============== */
+
+ul.services-symbol{
+	text-align: center;
+	margin: 0 auto;
+}
+
+ul.services-symbol li{
+	display: inline-block;
+	background: none;
+	vertical-align: top;
+	width: 200px;
+	padding: 0;
+}
+
+ul.services-symbol li a{
+	display: inline-block;
+}
+
+ul.services-symbol li a:hover{
+	text-decoration: none;
+}
+
+ul.services-symbol li figure{
+	background: url('images/services/icon-services.png') no-repeat transparent;
+	width: 112px;
+	height: 112px;
+	margin: 0 auto 10px;
+}
+
+ul.services-symbol li.html-programing figure{
+	background-position: 0 0;
+}
+
+ul.services-symbol li.email-template figure{
+	background-position: -115px 0;
+}
+
+ul.services-symbol li.mobile-code figure{
+	background-position: -230px 0;
+}
+
+ul.services-symbol li.advance-programing figure{
+	background-position: -345px 0;
+}
+
+ul.services-symbol li h4{
+	color: #fff;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+.service-container ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.service-container li{
+	margin-bottom: 40px;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.service-container li > section{
+	float: left;
+	width: 600px;
+}
+
+
+.service-container li > section .btn{
+	margin-right: 10px;
+}
+
+
+
+.service-container li > aside{
+	float: right;
+	width: 310px;
+	padding: 15px;
+	margin-top: 20px;
+	background-color: #D0E2F0;
+}
+
+.service-container li > aside header{
+	position: relative;
+	margin-bottom: 10px;
+	min-height: 70px;
+	display: inline-block;
+	width: 100%;
+}
+
+
+.service-container li > aside header section{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.service-container li > aside header strong{
+	font-size: 60px;
+	color: #AD2021;
+	display: block;
+}
+
+.service-container li > aside strong sup{
+	font-size: 30px;
+	line-height: inherit;
+	top: 13px;
+	vertical-align: text-top;
+}
+
+.service-container li > aside header section span{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.service-container li > aside header > span{
+	position: absolute;
+	background: url('images/services/divider-sidebar-box.png') repeat-y center center transparent;
+	top: 10px;
+	left: 50%;
+	margin-left: -10px;
+	font-size: 30px;
+	width: 20px;
+	height: 70px;
+	line-height: 70px;
+}
+
+.service-container li > aside header > span b{
+	background-color: #D0E2F0;
+}
+
+.service-container li > aside footer{
+	background: url('images/services/icon-clock.png') no-repeat left center transparent;
+	padding-left: 55px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.service-container li > aside footer label{
+	display: block;
+	font-size: 13px;
+	margin-bottom: -5px;
+}
+
+.service-container li > aside footer span{
+	font-family: 'HelveticaNeueBold';
+	font-size: 17px;
+}

@@ -1,0 +1,60 @@
+
+/* ==============
+    Examples Elements
+   ============== */
+
+.examples-container .filter-nav{
+	float: right;
+	position: relative;
+	top: -54px;
+	margin-bottom: -54px;
+	background: url('images/general/bg.png') repeat transparent;
+	padding-left: 10px;
+}
+
+.examples-container .filter-nav a{
+	background: url('images/examples/bg-filter-nav.png') no-repeat transparent;
+	width: 53px;
+	height: 54px;
+	float: left;
+	margin: 0 3px;
+}
+
+.examples-container .filter-nav a.html-css{
+	background-position: 0 0;
+}
+
+.examples-container .filter-nav a.html-css:active,
+.examples-container .filter-nav a.html-css.active{
+	background-position: 0 -54px;
+}
+
+.examples-container .filter-nav a.email-template{
+	background-position: -55px 0;
+}
+
+.examples-container .filter-nav a.email-template:active,
+.examples-container .filter-nav a.email-template.active{
+	background-position: -55px -54px;
+}
+
+.examples-container .filter-nav a.mobile-template{
+	background-position: -110px 0;
+}
+
+.examples-container .filter-nav a.mobile-template:active,
+.examples-container .filter-nav a.mobile-template.active{
+	background-position: -110px -54px;
+}
+
+
+.examples-container ul.projects-list{
+	margin-top: 30px;
+	width: 990px;
+}
+
+.examples-container ul.projects-list li{
+	width: 330px;
+	height: 280px;
+}
+

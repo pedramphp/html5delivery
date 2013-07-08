@@ -1,0 +1,17 @@
+<div class="header-container">
+    <header class="wrapper clearfix">
+        <h1 class="logo"><a href="<!--{$applicationPath}-->"></a></h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="<!--{$applicationPath}-->" class="active">Home</a></li>
+                <li><a href="<!--{$applicationPath}-->?action=how-it-works">How It Works</a></li>
+                <li><a href="<!--{$applicationPath}-->?action=examples">Examples</a></li>
+                <li><a href="<!--{$applicationPath}-->?action=services">Services</a></li>
+                <li><a href="<!--{$applicationPath}-->?action=faq">Faq</a></li>
+                <li><a href="<!--{$applicationPath}-->?action=about">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--{include file = $includeTemplate|cat: "header/$action.tpl.html"}-->
+</div>

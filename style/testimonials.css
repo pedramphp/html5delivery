@@ -1,0 +1,115 @@
+/* ==============
+    Testimonials Elements
+   ============== */
+
+.testimonials-page .separator-section h3{
+	text-align: center;
+}
+
+.testimonials-page .separator-section h3 figure{
+	display: inline-block;
+	vertical-align: middle;
+	background: url('images/testimonials/icon-twitter-bird.png') no-repeat transparent;
+	margin: 0 10px;
+	width: 52px;
+	height: 38px;
+}
+
+ul.twitter-testimonials-list{
+	margin-bottom: 30px;
+	display: inline-block;
+	width: 100%;
+}
+
+ul.twitter-testimonials-list li{
+	background: none;
+	padding: 0;
+	width: 33.33%;
+	float: left;
+}
+
+ul.twitter-testimonials-list li h4{
+	font-size: 17px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+ul.twitter-testimonials-list li h4 span{
+	margin-right: 5px;
+}
+
+ul.twitter-testimonials-list li h4 small{
+	font-family: 'HelveticaNeueRegular';
+	font-size: 12px;
+	color: #ffcc33;
+}
+
+ul.twitter-testimonials-list li figure{
+	width: 48px;
+	height: 48px;
+	padding: 3px;
+	border: 1px dashed #4d636f;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	float: left;
+}
+
+ul.twitter-testimonials-list li figure img{
+	width: 48px;
+	height: 48px;
+}
+
+ul.twitter-testimonials-list li aside{
+	font-size: 13px;
+	margin-left: 65px;
+	width: 70%;
+}
+
+ul.twitter-testimonials-list li aside p{
+	line-height: 17px;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+ul.twitter-testimonials-list li aside time{
+	color: #ffcc33;
+	font-size: 11px;
+}
+
+
+.direct-testimonials .testimonials-list{
+	width: 1020px;
+}
+
+.direct-testimonials .testimonials-list li{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 0 30px 0 5px;
+}
+
+.direct-testimonials .testimonials-list li > div{
+	height: 90px;
+}
+
+.direct-testimonials .testimonials-list li > div > section{
+	height: 68px;
+}
+
+.direct-testimonials .testimonials-list li h4{
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+.direct-testimonials .testimonials-list li h4 a{
+	float: right;
+	font-size: 11px;
+	background: url('images/testimonials/icon-link.png') no-repeat left center transparent;
+	padding-left: 20px;
+}
+
+.direct-testimonials .testimonials-list li p{
+	line-height: 20px;
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'CongressHeavy';
+    src: url('fonts/congress-heavy.eot');
+    src: url('fonts/congress-heavy.eot') format('embedded-opentype'),
+         url('fonts/congress-heavy.woff') format('woff'),
+         url('fonts/congress-heavy.ttf') format('truetype'),
+         url('fonts/congress-heavy.svg#CongressHeavyRegular') format('svg');
+}
+   
+@font-face {
+    font-family: 'CongressExtraBold';
+    src: url('fonts/congress-extrabold.eot');
+    src: url('fonts/congress-extrabold.eot') format('embedded-opentype'),
+         url('fonts/congress-extrabold.woff') format('woff'),
+         url('fonts/congress-extrabold.ttf') format('truetype'),
+         url('fonts/congress-extrabold.svg#CongressExtraBoldRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CongressBold';
+    src: url('fonts/congress-bold.eot');
+    src: url('fonts/congress-bold.eot') format('embedded-opentype'),
+         url('fonts/congress-bold.woff') format('woff'),
+         url('fonts/congress-bold.ttf') format('truetype'),
+         url('fonts/congress-bold.svg#CongressBoldRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CongressMedium';
+    src: url('fonts/congress-medium.eot');
+    src: url('fonts/congress-medium.eot') format('embedded-opentype'),
+         url('fonts/congress-medium.woff') format('woff'),
+         url('fonts/congress-medium.ttf') format('truetype'),
+         url('fonts/congress-medium.svg#CongressMediumRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CongressRegular';
+    src: url('fonts/congress-regular.eot');
+    src: url('fonts/congress-regular.eot') format('embedded-opentype'),
+         url('fonts/congress-regular.woff') format('woff'),
+         url('fonts/congress-regular.ttf') format('truetype'),
+         url('fonts/congress-regular.svg#CongressRegularRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CongressRegularIta';
+    src: url('fonts/congress-regularita.eot');
+    src: url('fonts/congress-regularita.eot') format('embedded-opentype'),
+         url('fonts/congress-regularita.woff') format('woff'),
+         url('fonts/congress-regularita.ttf') format('truetype'),
+         url('fonts/congress-regularita.svg#CongressRegularItaRegular') format('svg');
+}

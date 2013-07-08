@@ -1,0 +1,106 @@
+/* ==============
+    FAQ Elements
+   ============== */
+   
+.faq-searchinput{
+	color: #88a4b9;
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 349px;
+	height: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: url('images/faq/icon-magnifier.png') no-repeat right center #fff;
+	border: 0;
+	font-family: 'HelveticaNeueRegular';
+}
+
+.faq-searchinput:focus{
+	color: #07202b;
+}
+
+
+.faq-page .sidebar{
+	float: left;
+	width: 250px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,.4);
+}
+
+.faq-page .sidebar > section{
+	margin-bottom: 20px;
+}
+
+.faq-page .sidebar > section h4{
+	font-size: 15px;
+	margin: 0 0 5px;
+}
+
+.faq-page .sidebar > section ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.faq-page .sidebar > section ul a{
+	font-size: 15px;
+	font-family: 'HelveticaNeueBold';
+	opacity: .6;
+	-webkit-transition: all 0.12s ease 0s;
+	-moz-transition: all 0.12s ease 0s;
+	-o-transition: all 0.12s ease 0s;
+	transition: all 0.12s ease 0s;
+}
+
+.faq-page .sidebar > section ul a:hover,
+.faq-page .sidebar > section ul a.active{
+	opacity: 1;
+	text-decoration: none;
+}
+
+.faq-page .sidebar-box p.telno{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.faq-page .sidebar-box .btn-container{
+	margin: 10px 0;
+}
+
+.faq-page .separator-section section h3{
+	font-size: 20px;
+}
+
+.faq-container .content-holder{
+	width: 700px;
+	margin-left: 292px;
+}
+
+.faq-container .content-holder .main-title{
+	color: #ad2021;
+}
+
+.faq-container .content-holder section{
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,.4);
+}
+
+.faq-container .content-holder h4{
+	font-size: 15px;
+	margin: 0 0 10px;
+}
+
+.faq-container .content-holder p{
+	margin: 5px 0 0;
+	font-size: 13px;
+}
+
+.faq-container .content-holder ul{
+	padding: 0;
+	list-style: none;
+}
+
+.faq-container .content-holder strong{
+	color: #AD2021;
+}

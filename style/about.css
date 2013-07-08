@@ -1,0 +1,70 @@
+/* ==============
+    About Elements
+   ============== */
+
+.about-sidebar{
+	float: right;
+	width: 340px;
+}
+
+.about-sidebar > section{
+	margin-bottom: 20px;
+}
+
+.about-sidebar > section h4{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.about-sidebar > section ul{
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+.about-sidebar > section .btn-container{
+	margin: 20px 0;
+}
+
+.about-content{
+	width: 600px;
+	float: left;
+}
+
+.about-content > section{
+	margin-bottom: 50px;
+}
+
+ul.work-steps{
+	list-style: none;
+	padding: 0;
+}
+
+ul.work-steps li{
+	margin-bottom: 25px;
+}
+
+ul.work-steps li span{
+	background: url('images/general/bg-circle.png') no-repeat left top transparent;
+	width: 47px;
+	height: 48px;
+	float: left;
+	line-height: 45px;
+	font-size: 25px;
+	text-shadow: 1px 1px 0 #fff;
+	text-align: center;
+	color: #999;
+	font-family: 'HelveticaNeueBold';
+}
+
+
+ul.work-steps li aside{
+	margin-left: 65px;
+}
+
+ul.work-steps li aside h4{
+	font-size: 15px;
+}
+
+ul.work-steps li aside p{
+	margin-top: 0;
+}
