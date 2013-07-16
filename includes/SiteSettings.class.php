@@ -20,7 +20,7 @@ class SiteSettings {
 	} /* </ SetTemplateColor > */
 	
 	public function setCoreJavascript(){
-		
+		LiteFrame::IncludeJavascript('default.js');
 	} /* </ SetCoreJavascript > */
 	
 } /* </ SiteSettings > */

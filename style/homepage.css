@@ -47,7 +47,7 @@
 }
 
 .slideshow nav{
-	background: url('../img/general/bg-slider-nav.png') repeat-x left center transparent;
+	background: url('images/general/bg-slider-nav.png') repeat-x left center transparent;
 	width: 850px;
 	height: 48px;
 	position: relative;
@@ -83,7 +83,7 @@
 }
 
 .slideshow nav li a{
-	background: url('../img/general/bg-circle.png') no-repeat left top transparent;
+	background: url('images/general/bg-circle.png') no-repeat left top transparent;
 	width: 47px;
 	height: 48px;
 	display: inline-block;
@@ -123,7 +123,7 @@
 }
 
 .slideshow nav .loadbar{
-	background: url('../img/general/bg-slider-loadbar.png') repeat-x left center transparent;
+	background: url('images/general/bg-slider-loadbar.png') repeat-x left center transparent;
 	height: 48px;
 	position: absolute;
 	left: 0;
@@ -186,7 +186,7 @@
 	display: block;
 	width: 44px;
 	height: 41px;
-	background: url('../img/general/arrow-testimonial.png') no-repeat transparent;
+	background: url('images/general/arrow-testimonial.png') no-repeat transparent;
 	z-index: 2;
 }
 
@@ -196,7 +196,7 @@
 
 .home-testimonials li > div > section > span{
 	position: absolute;
-	background: url('../img/general/icon-quote.png') no-repeat transparent;
+	background: url('images/general/icon-quote.png') no-repeat transparent;
 	width: 26px;
 	height: 25px;
 }
