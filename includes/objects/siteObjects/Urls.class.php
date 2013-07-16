@@ -11,19 +11,19 @@
 		
 			
 			$siteUrls = array();
-			$siteUrls["how_it_works"] = LiteFrame::BuildActionUrl( "how-it-works" );
-			$siteUrls["examples"] = 	LiteFrame::BuildActionUrl( "examples" );
-			$siteUrls["services"] = 	LiteFrame::BuildActionUrl( "services" );
-			$siteUrls["faq"] = 			LiteFrame::BuildActionUrl( "faq" );
-			$siteUrls["about"] = 	LiteFrame::BuildActionUrl( "about" );
-			$siteUrls["order"] = 	LiteFrame::BuildActionUrl( "order" );
-			$siteUrls["privacy_policy"] = 	LiteFrame::BuildActionUrl( "privacy-policy" );
+			$siteUrls["how_it_works"] =		LiteFrame::BuildActionUrl( "how-it-works" );
+			$siteUrls["examples"] =			LiteFrame::BuildActionUrl( "examples" );
+			$siteUrls["services"] =			LiteFrame::BuildActionUrl( "services" );
+			$siteUrls["faq"] =				LiteFrame::BuildActionUrl( "faq" );
+			$siteUrls["about"] =			LiteFrame::BuildActionUrl( "about" );
+			$siteUrls["order"] =			LiteFrame::BuildActionUrl( "order" );
+			$siteUrls["privacy_policy"] =	LiteFrame::BuildActionUrl( "privacy-policy" );
 			
 			$external = array();
 			$external["mexoinc"] = "http://www.mexoinc.com";
 			
 			$this->results = array(
-				"site" => $siteUrls,
+				"site" 		=> $siteUrls,
 				"external"	=> $external
 			);
 		}
