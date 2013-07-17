@@ -287,6 +287,10 @@ a.btn span{
 	display: block;
 }
 
+a.btn span{
+	padding: 0 10px;
+}
+
 .btn.btn-arrow span,
 a.btn.btn-arrow span{
 	background: url('images/general/arrow-right-blue.png') no-repeat right center transparent;
