@@ -177,6 +177,11 @@ a:hover{
 	z-index: 10;
 }
 
+ul.bullet-list li{
+	background: url('images/general/bullet-list-red.png') no-repeat left center transparent;
+	padding-left: 14px;
+	margin-bottom: 5px;
+}
 
 .btn,
 a.btn{
