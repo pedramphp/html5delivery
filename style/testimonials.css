@@ -2,11 +2,11 @@
     Testimonials Elements
    ============== */
 
-.testimonials-page .separator-section h3{
+.separator-section h3{
 	text-align: center;
 }
 
-.testimonials-page .separator-section h3 figure{
+.separator-section h3 figure{
 	display: inline-block;
 	vertical-align: middle;
 	background: url('images/testimonials/icon-twitter-bird.png') no-repeat transparent;
