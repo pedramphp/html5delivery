@@ -68,10 +68,18 @@
 			<h3 class="main-title title-underline"><span>Select Page numbers and delivery Package</span></h3>
 			<section>
 				<h4>How many Page do you want?</h4>
-				<div class="slider"></div>
+				<div class="slider-container">
+					<a href="#" class="btn-decrease"></a>
+					<div class="slider-bar"><a href="#" class="slider-handle"></a></div>
+					<a href="#" class="btn-increase"></a>
+				</div>
 				<h4>Select a delivery package</h4>
-				<div class="slider"></div>
-				<label>$138 home page / $69 sub page</label>
+				<div class="slider-container slider-delivery-package">
+					<a href="#" class="btn-decrease"></a>
+					<div class="slider-bar"><a href="#" class="slider-handle"></a></div>
+					<a href="#" class="btn-increase"></a>
+					<label>$138 home page / $69 sub page</label>
+				</div>
 			</section>
 			<h3 class="main-title title-underline"><span>Service Options</span></h3>
 			<section class="tab-menu">
@@ -171,12 +179,18 @@
 				</div>
 				<div>
 					<p class="coupon-holder">
-						<label>Coupon Code <a href="#" class="description-circle"></a></label>
+						<label>
+							Coupon Code
+							<span class="tooltip-container">
+								<a href="#" class="description-circle"></a>
+								<span class="tooltip-description">some text.....<i></i></span>
+							</span>
+						</label>
 						<input type="text"/>
 					</p>
-					<p class="last btn-holder"><button class="btn btn-red btn-medium float-right"><span>Order Now</span></button></p>
+					<p class="last btn-holder"><a class="btn btn-red btn-medium float-right" href="<!--{$SiteData.urls.site.order}-->"><span>Order Now</span></a></p>
 				</div>
-				<div>By clicking the "Order Now" button, you acknowledge that you have read and agree to the Mexo PSD2Html Service <a href="javascript:void(0)">Terms Of Service</a></div>
+				<div>By clicking the "Order Now" button, you acknowledge that you have read and agree to the Mexo PSD2Html Service <a href="<!--{$SiteData.urls.site.terms_of_service}-->">Terms Of Service</a></div>
 			</form>
 		</div>
 	</div>

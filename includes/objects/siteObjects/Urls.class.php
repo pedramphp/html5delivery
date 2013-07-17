@@ -19,6 +19,7 @@
 			$siteUrls["order"] = LiteFrame::BuildActionUrl( "order" );
 			$siteUrls["privacy_policy"] = LiteFrame::BuildActionUrl( "privacy-policy" );
 			$siteUrls["testimonials"] = LiteFrame::BuildActionUrl( "testimonials" );
+			$siteUrls["terms_of_service"] = LiteFrame::BuildActionUrl( "terms-of-service" );
 			
 			$external = array();
 			$external["mexoinc"] = "http://www.mexoinc.com";

@@ -210,13 +210,6 @@ ul.services-options li h4 strong{
 	font-family: 'HelveticaNeueBold';
 }
 
-.description-circle{
-	background: url('images/general/description-circle.png') no-repeat transparent;
-	width: 12px;
-	height: 12px;
-	display: inline-block;
-}
-
 .tabs-content > div > section{
 	width: 260px;
 	padding: 0 10px;
@@ -267,13 +260,13 @@ ul.services-options li h4 strong{
 }
 
 
-.summary-form div,
+.summary-form > div,
 .summary-form p{
 	position: relative;
 	float: left;
 }
 
-.summary-form div{
+.summary-form > div{
 	margin-top: 10px;
 	width: 100%;
 }
@@ -352,5 +345,98 @@ ul.services-options li h4 strong{
 }
 
 .summary-form .btn-medium{
+	float: right;
+}
+
+.summary-form .tooltip-container{
+	position: relative;
+
+}
+
+.summary-form .description-circle{
+	background: url('images/general/description-circle.png') no-repeat transparent;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.summary-form .tooltip-description{
+	color: #fff;
+	display: block;
+	font-size: 11px;
+	position: absolute;
+	background-color: #07202b;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	bottom: 30px;
+	left: -20px;
+	width: 250px;
+	padding: 5px 10px;
+	z-index: 10;
+}
+
+.summary-form .tooltip-description i{
+	background: url('images/order/arrow-tooltip.png') no-repeat 24px bottom transparent;
+	display: block;
+	bottom: -7px;
+	height: 7px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+
+
+.slider-container{
+	width: 588px;
+	height: 31px;
+	display: inline-block;
+	margin: 10px 0 20px;
+}
+
+.slider-container > *{
+	float: left;
+}
+
+.slider-container a.btn-decrease{
+	width: 22px;
+	height: 22px;
+	background: url('images/order/slider.png') no-repeat 0 0 transparent;
+}
+
+.slider-container a.btn-increase{
+	width: 22px;
+	height: 22px;
+	background: url('images/order/slider.png') no-repeat -25px 0 transparent;
+}
+
+.slider-container .slider-bar{
+	width: 536px;
+	height: 31px;
+	background: url('images/order/slider.png') no-repeat 0 -22px transparent;
+	position: relative;
+	padding: 0 4px;
+}
+
+.slider-container.slider-delivery-package .slider-bar{
+	background-position: -70px -22px;
+	width: 330px;
+}
+
+.slider-container a.slider-handle{
+	width: 10px;
+	height: 13px;
+	background: url('images/order/slider.png') no-repeat -50px 0 transparent;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+}
+
+.slider-container label{
+	font-size: 11px;
+	font-style: italic;
+	text-align: right;
 	float: right;
 }
