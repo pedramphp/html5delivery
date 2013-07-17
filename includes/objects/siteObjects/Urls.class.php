@@ -18,13 +18,28 @@
 			$siteUrls["about"] = LiteFrame::BuildActionUrl( "about" );
 			$siteUrls["order"] = LiteFrame::BuildActionUrl( "order" );
 			$siteUrls["privacy_policy"] = LiteFrame::BuildActionUrl( "privacy-policy" );
+			$siteUrls["testimonials"] = LiteFrame::BuildActionUrl( "testimonials" );
 			
 			$external = array();
 			$external["mexoinc"] = "http://www.mexoinc.com";
+			$external["mediatemple"] = "http://mediatemple.net";
+			$external["mcafee"] = "http://mcafeesecure.com/";
+			$external["verisign"] = "https://verisign.com";
+			$external["facebook"] = "https://facebook.com";
+			$external["twitter"] = "https://twitter.com";
+			$external["googleplus"] = "https://plus.google.com";
+			$external["toryfitness"] = "http://toryfitness.com";
+			$external["pergenproductions"] = "http://pergenproductions.com";
+			$external["goalconstruction"] = "http://goalconstruction.com";
+			$external["rtcdental"] = "http://rtcdental.com";
+			
+			$globalUrls = array();
+			$globalUrls["tel_number"] = "+1-888-756-4666";
 			
 			$this->results = array(
 				"site" 		=> $siteUrls,
-				"external"	=> $external
+				"external"	=> $external,
+				"globalUrl"	=> $globalUrls
 			);
 		}
 		
