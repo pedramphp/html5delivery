@@ -978,18 +978,16 @@ a.btn.btn-medium span{
 	height: 100%;
 	background-color: rgba(0,0,0,.4);
 	z-index: 1000;
-	margin: 0 !important;
 }
 
-.overlay-inner{
+.overlay-contact{
 	background-color: #eff4f7;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	
-	margin-left: -350px;
+	margin-left: -275px;
 	margin-top: -200px;
-	width: 700px;
+	width: 550px;
 	
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -998,7 +996,7 @@ a.btn.btn-medium span{
 	box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
 
-.overlay-inner > header{
+.overlay-contact > header{
 	position: relative;
 	background: url('images/general/bg-header.png') repeat-x transparent;
 	height: 77px;
@@ -1012,7 +1010,7 @@ a.btn.btn-medium span{
 	border-radius: 5px 5px 0 0;
 }
 
-.overlay-inner > header a.close{
+.overlay-contact > header a.close{
 	background: url('images/general/btn-overlay-close.png') no-repeat transparent;
 	position: absolute;
 	right: 15px;
@@ -1023,7 +1021,7 @@ a.btn.btn-medium span{
 	opacity: .8;
 }
 
-.overlay-inner > header a.close:hover{
+.overlay-contact > header a.close:hover{
 	opacity: 1;
 	
 	-webkit-transition: all 0.1s ease 0s;
@@ -1032,19 +1030,8 @@ a.btn.btn-medium span{
 	transition: all 0.1s ease 0s;
 }
 
-.overlay-inner > section{
-	width: 100%;
-	display: inline-block;
-}
-
-.overlay-contact{
-	margin-left: -275px;
-	margin-top: -200px;
-	width: 550px;
-}
-
-.contact-form{
-	margin: 10px 20px;
+.overlay-contact > section{
+	padding: 10px 20px;
 	display: inline-block;
 }
 
@@ -1145,69 +1132,6 @@ a.btn.btn-medium span{
 
 .contact-form .btn-medium{
 	float: right;
-}
-
-
-.overlay-example{
-	margin-top: -250px;
-	margin-left: -500px;
-	width: 1000px;
-	height: 500px;
-	overflow: hidden;
-}
-
-.overlay-example nav{
-	text-align: center;
-	width: 100%;
-	margin: 15px 0;
-}
-
-.overlay-example nav a{
-	text-transform: capitalize;
-	font-size: 16px;
-	font-family: 'HelveticaNeueBold';
-	color: #AD2021;
-	position: relative;
-	display: inline-block;
-	margin: 0 20px;
-}
-
-.overlay-example nav a::before{
-	width: 0;
-	position: absolute;
-	height: 2px;
-	left: 0;
-	bottom: 0;
-	display: block;
-	content: "";
-	background-color: #AD2021;
-	
-	-webkit-transition: all 0.1s ease 0s;
-	-moz-transition: all 0.1s ease 0s;
-	-o-transition: all 0.1s ease 0s;
-	transition: all 0.1s ease 0s;
-}
-
-.overlay-example nav a:hover::before,
-.overlay-example nav a.active::before{
-	width: 100%;
-}
-
-.overlay-example nav a:hover,
-.overlay-example nav a.active{
-	text-decoration: none;
-}
-
-.overlay-example section div{
-	height: 366px;
-	overflow: hidden;
-}
-
-.overlay-example iframe{
-	width: 100%;
-	height: 100%;
-	border: 0;
-	display: block;
 }
 
 

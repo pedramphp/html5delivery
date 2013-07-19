@@ -6,7 +6,7 @@ $(document).ready(function(){
 hd.core = {
 	init: function(){
 		$(".contact-us-link").on("click", $.proxy(this.showContactForm, this));
-		$(".overlay-inner .close").on("click", function(){
+		$(".overlay-contact .close").on("click", function(){
 			$(".overlay-holder").hide();
 		});
 		$(".overlay-holder").on("click", $.proxy(this.modalClick, this));
