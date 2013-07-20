@@ -20,6 +20,13 @@
 	color: #07202b;
 }
 
+.faq-page .separator-section h3 a{
+	color: #fff;
+}
+
+.faq-page .separator-section a{
+	color: #ccc;
+}
 
 .faq-page .sidebar{
 	float: left;
